@@ -1,117 +1,246 @@
-<html>
-    <head>
-        <style>
-body{
-    background-color:white;
-    width:500px;
-    margin-top:0px;
-   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        margin: 0;
+        padding: 0;
     }
-.main
-{
-text-align: center;
-}
-p{
-    font-size:10px;
-    padding-left:220px;
-    padding-right:220px;
-    padding-top:0px;
-}
-div{
-    border:5px solid dimgrey  ;
-}
-.a1
-{
-    background-color: white;
-}
-.a2
-{
-    background-color: yellow;
-}
-.a3
-{
-    background-color: skyblue;
-}
-.a4
-{
-    background-color: dimgrey;
-}
-.a5
-{
-    background-color:white;
-}
-.a6
-{
-    background-color: cadetblue;
-}
-.a7
-{
-    background-color: white;
-}
-.a8
-{
-    background-color: skyblue;
-}
-.a9
-{
-    background-color: lightyellow;
-}
-.a10
-{
-    background-color:  darkorange;
-}
-.a11
-{
-    background-color: cadetblue;
-}
-.a12
-{
-    background-color: navy;
-}
-.a13
-{
-    background-color: orange;
-}
-.p1
-{
-    padding-top:5px;
-    padding-bottom:5px;
-}
-.alighn
-{
-    float: left;
-}
+    img
+    {
+        height:35px;
+        /* border-radius: 50%; */
+    }
+    .navbar1
+    {
+        display: flex;
+        background-color: lightslategray;
+        color: white;
+        text-align: center;
+    }
+    .socialmedia
+    {
+        padding-left: 480px;
+        /* display: flex; */
+    }
+    .socialmedia img
+    {
+        padding:10px;
+        height: 25px;
+    }
+    ul li a
+    {
+        text-decoration: none;
+        color:black;
+        font-size: 22px;
+        padding-left:10px;
+        border-right: 1px solid black;
+    }
+    a
+    {
+        padding-right: 30px;
+    }
+    li
+    {
+        padding-right: 30px;
+    }
+    ul li 
+    {
+        list-style: none;
+        float: left;
+    }
+    ul
+    {
+        display: flex;
+        padding-left: 500px;
+        margin-top: 30px;
+        padding-top: 25px;
+    }
+    button
+    {
+        margin-top: -70px;
+        margin-left: 650px;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar2
+    {
+        border-bottom:1px solid lightblue ;
+    }
+    .icon
+    {
+        display: flex;
+        padding-top: -50px;
+        float: left;
+    }
+    .icon img
+    {
+        height: 100px;
+        padding-left: 150px;
+    }
+    .eduzone
+    {
+        padding-left: 100px;
+        font-size: 30px;
+    }
+    .eduzone1
+    {
+        /* float: left; */
+        padding-left: 30px;
+        padding-top: -80px;
+    }
+    .subdiv1
+    {
+        padding-top: 150px;
+        padding-left: 10px;
+        flex-wrap: wrap;
+        width: 50%;
+        display: flex;
+    }
 
-
-
-    </style>
-    </head>
-     <body>  
-        <p class="a1" class="main"> body</p>
-        <div>
-            
-                <div class="a2">
-                   <p class="p1"> header</p> 
-                   <div class="a3"> <p > nav</p></div>
-                </div>
-                <div>
-                    <p class="a4"> section </p>
-                    <div class="a5"> <p > header </P></div>
-                    <div class="a6"> <p> article </p>
-                    <div class="a7"> <p > header </p></div>
-                    <div class="a8"> <p > pkjhgf </p></div>
-                    <div > 
-                        <div class="a8" class="alighn"> <p > ppp </p></div>
-                        <div class="a9" class="alighn"> <p > aside </p></div>
-                    </div>
-                    <div  class="a10"> <p> footer</p></div>
-                    </div>
-                </div>
-        <div class="a11"> <p> section </p>
-        <div class="a7"> <p > header </p></div>
-        <div class="a12"> <p > nav </p></div>
+   .subbutton
+   {
+    margin-top: 15px;
+    margin-left: 80px;
+   }
+    .subsubdiv2
+    {
+        display: flex;
+    }
+    .subsubdiv1
+    {
+        padding-left:15px ;
+        flex-wrap: wrap;
+    }
+    .content1
+    {
+        display: flex;
+    }
+    .buttoncourse
+    {
+        display: flex; 
+    }
+    .subdiv2 img
+    {
+        height:450px;
+        margin-left: 250px;
+        display: flex;
+    }
+    @media  screen and (max-width:500px)
+    {
+       .navbar1
+       {
+        justify-content: center;
+        width: 100%;
+        flex-flow:column;
+        text-align: center;
+       }
+       .socialmedia
+       {
+        width: 100%;
+        height: 50px;
+        padding-left: 10px;
+        flex-flow:column;
+        background-color: black;
+       }
+       .icon
+       {
+        width: 100%;
+        padding-top: 15px;
+        flex-flow: column;
+       }
+       a
+       {
+        width: 100%;
+        border-right: 0px solid black;
+       }
+       ul
+       {
+        width: 100%;
+        flex-flow: column;
+        padding-left: 200px;
+       }
+       .subsubdiv1
+       {
+        font-size: 30px;
+        width: 100vh;
+        margin-top: -150px;
+        flex-flow: column;
+       }
+       .subdiv2 img
+       {
+        flex-flow: column;
+        padding-left: -15px;
+       }
+       .buttoncourse
+       {
+        flex-flow: column;
+        margin-right: 850px;
+       }
+       .subdiv2 img
+        {
+        height:450px;
+        margin-left: 250px;
+        flex-flow: column;
+        }
+        
+    }
+   
+</style>
+<body>
+    <div class="navbar1">
+        <span class="contact"> 
+            <img src="./picture/phone(ios).jpeg"> <span class="center">123-456-7890</span>
+        </span>
+        <span class="mail">
+            <img src="./picture/mail(ios).jpeg"> <span class="center">eduzone@university.com</span>
+        </span>
+        <span class="location">
+            <img src="./picture/location.png"> <span class="center">184,Main Collins Street,USA.</span>
+        </span>
+        <div class="socialmedia">
+            <img src="./picture/insta.png">
+            <img src="./picture/facebook.png">
+            <img src="./picture/snap.png">
         </div>
-        <div class="a13"> <p> footer </p></div>
+    </div>
+    <div class="navbar2">
+        <div class="icon">
+            <img src="./picture/D image logo.jpg"> 
+            <div class="eduzone"> Edu Zone</div>
+            <div class="eduzone1">UNIVERSITY</div>
         </div>
-    </body>
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Course</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Pages</a></li>
+            <li> <a href="#">Events</a></li>
+        </ul>
+        <button class="buttoncourse">Get Courses</button>
+    </div>
+    <div class="content1">
+        <div class="subdiv1">
+            <div class="subsubdiv1">
+                <h3>Let's start your education career from Eduzone</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, beatae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, repudiandae?</p>
+            </div>
+            <div class="subsubdiv2"><button class="subbutton">Explore Courcer</button><span>Apply Now</span></div>
+                
+        </div>
+        <div class="subdiv2">
+            <img  src="./picture/treejpg.jpg">
+        </div>
+    </div>
+</body>
 </html>

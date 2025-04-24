@@ -1,26 +1,102 @@
 <html>
-<head>
+    <head>
+        <style>
+            .hello
+            {
+                border:5px solid black;
+            }
+             /* .container p:first-child /* to give color to the first p  
+            {
+                color:blue;
+            } */
 
-<link href="./project1.css" type="text/css" rel="stylesheet"/>
+            /* 1 .container p:nth-child(2)           /* to give color to the second  p  
+            {
+                color:red;
+            } */
 
-</head>
-<body>
+            /* 2 .container p:nth-last-child(2)         decending order to p
+            {
+                color: green;
+            } */
+
+            /* 3.container p:nth-of-type(2)
+            {
+                font-weight: bold;
+            } */
+
+            /* 4 .container>p
+            {
+                color:blue;
+            } */
+
+            /* 5 #hello1 p:nth-child(2) + p
+            {
+                font-size:34px;
+            } */
+
+            /* 6 .container p:nth-last-of-type(2)
+            {
+                color:red;
+            } */
+
+            /* 7 .container p:only-child
+            {
+                color:red;
+            } */
+
+            /* 8 .container p:only-of-type
+            {
+                color:red;
+            } */
+
+            /* 9 .container p:first-of-type
+            {
+                color:red;
+            } */
+
+            /* 10 .container p:last-of-type
+            {
+                color:red;
+            } */
+
+             /* 11 .container :empty
+            {
+                background-color:red;
+                height: 10px;
+            } */
+            
+            /* 12 .container :not(p)
+            {
+                color:red;
+            } */
 
 
-<h1> Ice Cream</h1>
-<ol>
-<li> )Chocolate cone</li>
-<li> )Hazel nuts </li>
-<li>  )Vanila party pack</li>
-</ol>
 
-<h2> Burger</h2>
-<ol>
-<li> )Veg aloo tikki</li>
-<li> )Grilled Veg.Burger</li>
-<li> )Cheesy grilled sandwich</li>
-</ol>
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hello" id="hello1">
+                <h1>heading box </h1>
+                <p> first paragraph box1 </p>
+                <p> second paragraph box1</p>
+                <p> third paragraph box1 </p>
+                <p> forth paragraph box1</p>
+            </div>
+            <p> second child container </p>
 
-</body>
+            <!-- for 7 pseudo class <div>
+                <p> third child container</p>
+            </div> -->
+           
 
+            <div class="hello">
+                <p> first paragraphof box 2 </p>
+                <p> second paragraphof box 2 </p>
+                <p> third paragraphof box 2</p>
+            </div>
+
+        </div>
+    </body>
 </html>

@@ -1,62 +1,57 @@
 <html>
-<head>
-<style>
-	td{
-		height:1px;
-	}
-	table{
-	border-spacing:0px;
-	}
-</style>
+    <head>
+        <style>
+            input:focus
+            {
+                border:5px solid red ;
+            }
+            input:checked
+            {
+                accent-color:blue;
+                height: 50px;
+            }
+            input:disabled
+            {
+                background-color: yellow;
+            }
+            input:enabled
+            {
+                background-color: lightgrey;
+            }
+            input:required
+            {
+                background-color: orange;
+            }
+            input:optional
+            {
+                background-color: pink;
+            }
 
-</head>
-<body>
-<table >
-
-<tr>
-<td bgcolor="orange"> </td>
-<td bgcolor="brown"> </td>
-<td bgcolor="blue"> </td>
-<td bgcolor="dark pink"> </td>
-<td bgcolor="cream"> </td>
-</tr>
-
-
-<tr>
-<td bgcolor="light brown"> </td>
-<td bgcolor="green"> </td>
-<td bgcolor="light pink"> </td>
-<td bgcolor="violet"> </td>
-<td bgcolor="dark yellow"> </td>
-</tr>
-
-
-<tr>
-<td bgcolor="yellow"> </td>
-<td bgcolor="dark blue"> </td>
-<td bgcolor="orange"> </td>
-<td bgcolor="light blue"> </td>
-<td bgcolor="red"> </td>
-</tr>
-
-
-<tr>
-<td bgcolor="dark brown "> </td>
-<td bgcolor="orange "> </td>
-<td bgcolor="light green "> </td>
-<td bgcolor="green "> </td>
-<td bgcolor="dark brown "> </td>
-</tr>
-
-
-<tr>
-<td bgcolor="cream"> </td>
-<td bgcolor="pink"> </td>
-<td bgcolor="white"> </td>
-<td bgcolor="orange"> </td>
-<td bgcolor="green"> </td>
-</tr>
-
-</table>
-</body>
+        </style>
+    </head>
+    <body>
+        <table>
+            <form>
+                <tr>
+                    <td><label>number</label></td>
+                    <td> <input type="text" required placeholder="1234567890" /></td>
+                </tr>
+                <tr>
+                    <td><label>name</label></td>
+                    <td><input type="text" disabled placeholder="jon" /></td>
+                </tr>
+                <tr>
+                    <td><label> male </label></td>
+                    <td> <input type="radio" /></td>
+                    <td><label> female </label></td>
+                    <td> <input type="radio"  /></td>
+                    <td><label> Other </label></td>
+                    <td> <input type="radio"  /></td>
+                </tr>
+                <tr>
+                    <td><textarea > "Jone banega done "</textarea></td>
+                </tr>
+            </form>
+        </table>
+    </body>
 </html>

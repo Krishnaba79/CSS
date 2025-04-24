@@ -1,29 +1,78 @@
 <html>
-<head>
-<link href="./project7.css" type="text/css" rel="stylesheet"/>
-</head>
-<body>
-<p id="property"> CSS Text Property With Example</p>
-<br />
-<p> justify : Lorem dolor, sit amet consectetur adipisicing elit. Magni, et dolorum. Deserunt sint atque voluptas vel blanditilis ex sed nulla quia explicabo architecto officia eum non, natus saepe cumque.  </p>
+    <head>
+        <style>
 
-<h1> TRANSFORM PROPERTY </h1>
-<br />
-<p id="understand"> Decoration property</p> 
-<br />
-<p id="indent">indent property </p>
-<br />
-<p> Height property </p>
-<br />
-<p id="direction"> Direction property</p>
-<br />
-<p id="shadow">Shadow property  </p>
-<br />
-<p id="spacing"> Word Spacing Property </p>
-<br />
-<p id="letter"> Letter spacing property</p>
+            .div1
+            {
+                height: 150px;
+                width: 200px;
+                background-color: darkcyan;
+                /*  */
+                transition: 1s;
+            }
+            .div1:hover
+            {
+                /* transform: rotate(360deg); */
+                transform: translateX(30px);
+                transform: translatey(50px);
+            }
+            .div2
+            {
+                height: 150px;
+                width: 200px;
+                background-color: darkmagenta;
+            }
+            .div2:hover
+            {
+                transform:scale(5,3);
+            }
+            .div3
+            {
+                background-color: black;
+                margin: 100px;
+                height: 350px;
+                width: 250px;
+            }
+            img{
+                height: 250px;
+            }
+            .sub1
+            {
+                height: 110px;
+                width: 25px;
+                background-color: green;
+                position: relative;
+                top: -90px;
+                left:80;
+                transform: rotate(30deg);
+            }
+            .sub2
+            {
+                
+                height: 110px;
+                width: 25px;
+                left:150;
+                background-color:red;
+                position: relative;
+                top:-200px;
+                transform: rotate(-30deg);
+            }
+            img{
+                transition: 1s;
+            }
+            img:hover{
+                transform: rotate(360deg);
+            }
 
-
-
-</body>
+        </style>
+    </head>
+    <body>
+        <div class="div1"></div>
+        <div class="div2"></div>
+            <div class="div3">
+                <img src="./picture/sirphoto.png" />
+            <div class="sub1"></div>
+            <div class="sub2"></div>
+            </div>
+    </body>
 </html>
