@@ -1,0 +1,12 @@
+td
+{
+    padding:200px;
+    margin:50px;
+    border-style:solid;
+    color:orange;
+}
+
+td
+{ 
+    border-width:5px 5px 5px 5px;
+}

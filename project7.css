@@ -1,0 +1,33 @@
+#property
+{ 
+font-weight:bold;
+}
+
+#understand
+{ 
+text-decoration:underline;
+}
+
+#spacing
+{ 
+word-spacing:1em;
+}
+
+#letter
+{ letter-spacing:1em;
+}
+
+#indent
+{ text-indent:50px;
+}
+
+#direction
+{ text-align:right;
+}
+
+#shadow
+{
+text-shadow: 2px 2px 7px;
+font-weight:bold;
+font-size:30px;
+}

@@ -1,0 +1,86 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            .box1, .box2,.box3{
+                border: 3px solid;
+                padding: 0px 20px;
+            }
+            .container p:nth-child(2){
+                color: red;
+            }
+            .container p:nth-last-child(2){
+                color: green;
+            }
+
+            .container p:nth-of-type(2){
+                font-weight: bold;
+            }
+            .container >p{
+                color: blue;
+            }
+
+            .box1 p:nth-child(2)+p{
+                font-size: 32px;
+            }
+
+
+            .container p:nth-last-of-type(2){
+            color: brown;
+            }
+
+            .container p:only-child{
+                color: red;
+            }
+
+            .container p:only-of-type{
+                color: darkorchid;
+            }
+
+            .container p:first-of-type{
+                color: blueviolet;
+            }
+
+            .container p:empty{
+                height: 30px;
+                width: 100px;
+                background-color: cadetblue;
+            }
+
+            .box1 :not(p){
+                color: burlywood;
+            }
+        </style>
+
+    </head>
+    <body>
+    
+        <div class="container">
+            <div class="box1">
+                <h1>heading box 1</h1>
+                <p>first paragraph of box1</p>
+            
+                <p></p>
+                <p>third paragraph of box1</p>
+                <p>forth paragraph of box1</p>
+            </div>
+            <p>second Child of container</p>
+            <p>third Child of container</p>
+
+            <div class="box2">
+                <p>first paragraph of box2</p>
+                <p>second paragraph of box2</p>
+                <p>third paragraph of box2</p>
+            </div>
+            
+
+            <div>
+                <span><p>hello world</p></span>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <style>
+           
+            :root{
+                --white:#ffffff;
+                --green:#50d24b;
+            }
+            .section1{
+                width: 30%;
+                height: 50em;
+                
+                background-color: var(--green);
+                color:var(--white);
+            }
+            .section2{
+                width: 60%;
+                background-color: var(--white);
+                color: var(--green);
+                height: 50em;
+                text-align: center;
+
+            }
+            div{
+                display: inline-block;
+            }
+            .section1 .section2{
+                display:table;
+                width: 100%;
+                margin:0px;
+                padding: 0px;
+
+
+            }
+            input{
+                display: block;
+                margin: 10px;
+               
+            }
+            body{
+                padding: 0;
+                margin: 0;
+            }
+            
+    
+            @media screen and (max-width:992px){
+            .section1,#section2{
+            width: 100%;
+             }
+            .section1{
+            height:60vh;
+             }
+            .section2{
+            height:100vh;
+            }
+}
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="section1">
+            <h3>Fujitsu</h1>
+            <h1>welcome Back</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, quas? Corporis, dolore ipsam illo recusandae quasi molestiae ad nisi labore, nam, veniam ducimus ut? Magni voluptatem illo repellendus eum beatae.</p>
+            <button>Sign up</button>
+        </div>
+        <div class="section2">
+            <div class="part1">          
+            <h1 id="hello">create Account</h1>
+            <p>or use your email for registration</p>
+            <input type="Text" placeholder="Name">
+            <input type="Email" placeholder="Email">
+            <input type="password" placeholder="password">
+            <button>Sign up</button>
+        </div>  
+        </div>
+    </body>
+</html>

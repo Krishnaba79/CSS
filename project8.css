@@ -1,0 +1,22 @@
+img
+{ border-radius:100px;
+height:100px;
+
+}
+
+#photo
+{ float:right;
+}
+
+#bold
+{ font-weight:bold;
+}
+
+#dropcap:first-letter
+{
+float:left;
+line-height:1;
+font-weight:bold;
+font-size:45px;
+margin-right:9px;
+}

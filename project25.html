@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <style>
+           input:focus{
+                border: 3px solid skyblue;
+                outline:0px;
+           }
+           #five{
+            border: solid blue ;
+            width: 0px;
+
+           }
+           input:error{
+            border:solid red;
+           }
+
+        </style>
+    </head>
+    <body>
+        <h1>Shyp</h1>
+        <table>
+            <tr>
+                <td><h3>Standard</h3></td>
+                <td><h3>Tiny</h3></td>
+            </tr>
+            <tr >
+                <td  id="one">Used for main forms-new Shipment, editing , adding ,etc.</td>
+                <td>used for entering dimensions</td>
+            </tr>
+            <tr>
+                <td id="two"><input type="text" placeholder="Required Field"  required/></td>
+                <td><input type="text" placeholder="0.0"/></td>
+            </tr>
+
+            <tr>
+                <td id="three"><input type="text" placeholder="optional field" /></td>
+                <td><input type="text" placeholder="0.0"/></td>
+            </tr>
+
+            <tr>
+                <td id="four"><input type="text" placeholder="focused" /></td>
+                <td><input type="text" placeholder="0.0"/></td>
+            </tr>
+
+            <tr>
+                <td id="five"><input type="text" value="typing" /></td>
+                <td><input type="text" value="4.3"/></td>
+            </tr>
+            
+            <tr>
+                <td id="six"><input type="text" value="entered"  /></td>
+                <td><input type="text" value="4.3"/></td>
+            </tr>
+
+            <tr>
+                <td id="7"><input type="email" value="error@shyp"  error/></td>
+                <td><input type="text"value="4.3"/></td>
+            </tr>
+
+            
+        </table>
+    </body>
+</html>

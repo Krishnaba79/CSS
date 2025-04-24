@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            #first{
+                height: 150px;
+                width: 200px;
+                background-color: black;
+                transform:translate(30px,50px);
+                position:relative;
+            }
+            #first:hover{
+                transform: rotate(60deg);
+            }
+            #second{
+                height:150px ;
+                width: 200px;
+                background-color: brown;
+                margin-top: 50px;
+            }
+            #second:hover{
+                transform: scale(2,3);
+            }
+            #third{
+                background-color: blueviolet;
+                height: 100px;
+                width: 100px;
+                margin-top: 20px;
+                margin-left: 50px;
+                transition: 2s;
+                transition-timing-function: ease-in-out;
+                transform-origin: 200px 200px;
+                position: relative;
+            }
+            #third:hover{
+                transform: rotate(360deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="first"></div>
+
+        <div id="second"></div>
+
+        <div id="third"></div>
+    </body>
+</html>

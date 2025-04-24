@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        .container{
+            
+           
+           
+           display: flex;
+           height: 500px;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: space-around;
+           align-items: center;
+          
+       }
+        
+        .red{
+            background-color: brown;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            border-radius: 50%;
+        }
+        .part1{
+            width: 50%;
+            display: table;
+            float:left;
+           
+
+            
+        }
+        .part2{
+            width: 50%;
+            float:right;
+            outline:1px solid black;
+            display:table;
+        }
+        .contain{
+            width: 500px;
+        }
+        .left{
+                background-color: rgb(9, 57, 72);
+                height: 450px;
+                width: 60px;
+                margin-left: 10px;
+                float: left;
+            }
+            
+            .home{
+                padding-top: 50px;
+            }
+            .back{
+                display: inline-block;
+
+            }
+            .box{
+                border:1px solid black;
+                width: 100px;
+                margin-left:10px;
+                display: inline-block;
+            }
+            #box1{
+                width: 200px;
+            }
+            @media screen and (max-width:992px){
+    .part1,.part2{
+        width: 100%;
+    }
+    .part1{
+        height:60vh;
+    }
+    .part2{
+        height:100vh;
+    }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="part1">
+                <div class="contain">
+                <p>email marketing tool</p>
+                <h1>send email message that converts.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tenetur quae tempora laborum ipsum nostrum repellat molestiae provident recusandae? Rerum voluptates eaque velit earum rem quidem distinctio placeat dolores eligendi.</p>
+                <button>get started</button>
+            </div>
+            </div>
+            <div class="part2">
+                <header>
+                    <div class="red"></div>
+                    <div class="red"></div>
+                    <div class="red"></div>
+                </header>
+                <div class="left" ><p class="home">home</p></div>
+                <h3></h3>class="back">welcome back</h3>
+                <p>Mickel james</p>
+                <div class="box"><p>Send</p>
+                <h1>287</h1>
+                <div class="pink"></div>
+                </div>
+                <div class="box"><p>Send</p>
+                <h1>287</h1>
+                <div class="pink"></div>
+                </div>
+                <div id="box1" class="box"><p>Send</p>
+                <h1>287</h1>
+                <div class="pink"></div>
+            </div>
+            
+            </div>
+        </div>
+    </body>
+</html>

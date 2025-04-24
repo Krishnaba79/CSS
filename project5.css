@@ -1,0 +1,19 @@
+h2
+{ color:lightgreen;
+}
+
+#h2
+{ color:yellow;
+background-color:purple;
+}
+
+p
+{ color:purple;
+}
+
+pre
+{ 
+font-weight:bold;
+color:blue;
+background-color:yellow;
+}
