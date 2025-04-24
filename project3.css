@@ -1,34 +1,11 @@
-ul{
-    background-color: yellowgreen;
-    margin: 0px;
-    padding:0px;
-    height:800px;
-    width:120px;
-
-}
-li a{
-    color:white;
-    text-decoration: none;
-    padding:20px 20px;
-    text-align: center;
-    display:block;
-}
-body{
-    padding:0px;
-    margin:0px;
-}
-ul,div{
-    float:left;
+h1
+{ background-color:darkblue;
+color:white;
 }
 
-div{
-    margin:20px;
-}
-a:hover{
-    background-color: rgb(48, 140, 129);
+#btn{
+	background-color:darkblue;
+	color:white;
 }
 
-.active
-{
-    background-color: black;
-}
+

@@ -1,142 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body
-        {
-            margin: 0;
-            padding: 0;
-        }
-        .logo
-        {
-            height: 150px;
-            border-radius: 50%;
-            float: left;
-            margin-top: -25px;
-            margin-left: 50px;
-        }
-        .links
-        {
-            margin-left: 900px;
-            margin-top: 40px;
-            font-size: 35px;
-        }
-        .links a
-        {
-            text-decoration: none;
-            color: black;
-        }
-        .helpforbusiness
-        {
-            background-color: aquamarine;
-            margin-top: 100px;
-            height: 45vh;
-            width: 206vh;
-            text-align: center;
-            padding-top: 100px;
-            background-image: url(./picture/tea.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: aliceblue;
-        }
-        .bold
-        {
-            font-weight: bold;
-            font-size: 40px;
-            text-align: center;
-        }
-        .bold1
-        {
-            text-align: center;
-            font-weight: bold;
-        }
-        button
-        {
-            padding: 10px;
-            padding-left: 50px;
-            padding-right: 50px;
-            border: 0;
-            border-radius: 5px;
-        }
-        .logo1
-        {
-            height: 150px;
-            padding-left: 180px;
-        }
-        a
-        {
-            padding-left: 20px;
-        }
-        .align
-        {
-            text-align: center;
-            padding-left: 50px;
-            padding-right: 50px;
-        }
+<html>
+    <head>
+        <style>
+            header
+            {
+                background-color: aqua;
+                height:50px;
+            }
+            .first,ul,h3
+            {
+                display: inline;
+            }
+            nav
+            {
+                float: right;
+            }
+            aside
+            {
+                background-color: gray;
+                width: 200px;
+                height: 600px;
+                float: left;
+            }
+            div
+            {
+                float: left;
+                background-color: rgb(79, 126, 79);
+                width:700px;
+                height: 600px;
+            }
+            article
+            {
+                border:2px solid black;
+                padding-top: 30px;
+                margin-top: 10px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h3>shopify</h3>
+            <nav>
+            <ul>
+                <li class="first">Home</li>
+                <li class="first">Contact</li>
+                <li class="first">About</li>
+                <li class="first">Serive</li>
+            </ul>
+        </nav>
+        </header>
+        <aside>
+            <h3>Topics</h3>
+            <ul>
+                <li>names</li>
+                <li>domain</li>
+                <li>site</li>
+                <li>hosting</li>
+                <li>pricing</li>
+                <li>help support</li>
+            </ul>
+        </aside>
+        <div>
+            <article>
         
-        @media screen and (max-width:400px)
-        {
-         .logo
-         {
-            /* width: 100%; */
-            margin-left: 450px;
-            float: left;
-            text-align: center;
-         }   
-         .links
-         {
-            margin-left: 150px;
-            text-align: center;
-         }
-         .logo1,.align,.bold1
-         {
-            float: none;
-         }
-         .bold
-         {
-            text-align: center;
-         }
+                <h3>Hello world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero nostrum vero eos fuga, natus quod ipsa velit sequi veniam nisi. Fugiat nobis debitis aliquid repellendus inventore libero cum quam similique.</p>
+            </article>
+            <article>
         
-        }
-    </style>
-</head>
-<body>
-    <img class="logo" src="./picture/D image logo.jpg">
-    <div class="links">
-        <a href="#">Home</a>
-        <a href="#">Product</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact Us</a>
-    </div>
-    <div class="helpforbusiness">
-        <p class="bold"> <b>WE HELP YOUR BUSINESS</b></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae.</p>
-        <p>Lorem dolor sit amet consectetur adipisicing elit. recusandae.</p>
-        <button> <b>LEARN MORE</b></button>
-    </div>
-    <p class="bold">OUR PRODUCT</p>
-    <div class="OUR PRODUCT">
-        <table border="1">
-            <tr>
-                <td><img class="logo1" src="./picture/star(glitter).jpg"></td>
-                <td><img class="logo1" src="./picture/star(glitter).jpg"></td>
-                <td><img class="logo1" src="./picture/star(glitter).jpg"></td>
-            </tr>
-            <tr>
-                <td class="bold1">SEO</td>
-                <td class="bold1">BRANDING</td>
-                <td class="bold1">LOGO</td>
-            </tr>
-            <tr>
-                <td class="align">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusamus!</td>
-                <td class="align">Lorem, ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusamus!</td>
-                <td class="align">Lorem, ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusamus!</td>
-            </tr>
-        </table>
-    </div>
-</body>
+                <h3>Hello world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero nostrum vero eos fuga, natus quod ipsa velit sequi veniam nisi. Fugiat nobis debitis aliquid repellendus inventore libero cum quam similique.</p>
+            </article>
+            <article>
+        
+                <h3>Hello world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero nostrum vero eos fuga, natus quod ipsa velit sequi veniam nisi. Fugiat nobis debitis aliquid repellendus inventore libero cum quam similique.</p>
+            </article>
+        </div>
+    </body>
 </html>
