@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glowing Button</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .glow-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #111;
+            border: 2px solid #0ff;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease;
+            box-shadow: 0 0 10px #0ff;
+        }
+
+        .glow-button:hover {
+            background-color: #0ff;
+            color: #111;
+            box-shadow: 0 0 20px #0ff, 0 0 30px #0ff;
+        }
+    </style>
+</head>
+<body>
+    <button class="glow-button">Hover Me</button>
+</body>
+</html>
